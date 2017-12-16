@@ -14,6 +14,14 @@
 		ED86C5E61FE52407005942E2 /* BLMigration_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED94D9281FE5239700FEB588 /* BLMigration_iOSTests.swift */; };
 		ED86C5E71FE52408005942E2 /* BLMigration_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED94D9281FE5239700FEB588 /* BLMigration_iOSTests.swift */; };
 		ED86C5E81FE5240A005942E2 /* BLMigration_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED94D9281FE5239700FEB588 /* BLMigration_iOSTests.swift */; };
+		ED86C5EA1FE52F40005942E2 /* BLMigration.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED86C5E91FE52F40005942E2 /* BLMigration.swift */; };
+		ED86C5EC1FE52F75005942E2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED86C5EB1FE52F75005942E2 /* Constants.swift */; };
+		ED86C5ED1FE53028005942E2 /* BLMigration.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED86C5E91FE52F40005942E2 /* BLMigration.swift */; };
+		ED86C5EE1FE53029005942E2 /* BLMigration.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED86C5E91FE52F40005942E2 /* BLMigration.swift */; };
+		ED86C5EF1FE5302A005942E2 /* BLMigration.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED86C5E91FE52F40005942E2 /* BLMigration.swift */; };
+		ED86C5F01FE5302D005942E2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED86C5EB1FE52F75005942E2 /* Constants.swift */; };
+		ED86C5F11FE5302E005942E2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED86C5EB1FE52F75005942E2 /* Constants.swift */; };
+		ED86C5F21FE5302F005942E2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED86C5EB1FE52F75005942E2 /* Constants.swift */; };
 		ED94D8CF1FE5201100FEB588 /* BLMigration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED94D8C51FE5201000FEB588 /* BLMigration.framework */; };
 		ED94D8FA1FE5204F00FEB588 /* BLMigration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED94D8F11FE5204F00FEB588 /* BLMigration.framework */; };
 		ED94D9161FE5205F00FEB588 /* BLMigration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED94D90D1FE5205E00FEB588 /* BLMigration.framework */; };
@@ -44,6 +52,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ED86C5E91FE52F40005942E2 /* BLMigration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLMigration.swift; sourceTree = "<group>"; };
+		ED86C5EB1FE52F75005942E2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		ED94D8C51FE5201000FEB588 /* BLMigration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BLMigration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED94D8CE1FE5201100FEB588 /* BLMigration_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLMigration_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED94D8E41FE5204100FEB588 /* BLMigration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BLMigration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -141,6 +151,8 @@
 			children = (
 				ED94D9251FE5210000FEB588 /* BLMigration.h */,
 				ED94D9261FE5210000FEB588 /* Info.plist */,
+				ED86C5E91FE52F40005942E2 /* BLMigration.swift */,
+				ED86C5EB1FE52F75005942E2 /* Constants.swift */,
 			);
 			path = SharedSources;
 			sourceTree = "<group>";
@@ -330,6 +342,7 @@
 				TargetAttributes = {
 					ED94D8C41FE5201000FEB588 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					ED94D8CD1FE5201100FEB588 = {
@@ -438,6 +451,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED86C5EA1FE52F40005942E2 /* BLMigration.swift in Sources */,
+				ED86C5EC1FE52F75005942E2 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +468,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED86C5ED1FE53028005942E2 /* BLMigration.swift in Sources */,
+				ED86C5F01FE5302D005942E2 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +477,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED86C5EE1FE53029005942E2 /* BLMigration.swift in Sources */,
+				ED86C5F11FE5302E005942E2 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,6 +494,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED86C5EF1FE5302A005942E2 /* BLMigration.swift in Sources */,
+				ED86C5F21FE5302F005942E2 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -623,6 +644,7 @@
 		ED94D8DA1FE5201100FEB588 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -636,6 +658,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "de.dev-kiste.BLMigration-iOS";
 				PRODUCT_NAME = BLMigration;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -644,6 +667,7 @@
 		ED94D8DB1FE5201100FEB588 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -665,6 +689,7 @@
 		ED94D8DD1FE5201100FEB588 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4ZHCQJ2SCM;
 				INFOPLIST_FILE = BLMigration_iOSTests/Info.plist;
@@ -679,6 +704,7 @@
 		ED94D8DE1FE5201100FEB588 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4ZHCQJ2SCM;
 				INFOPLIST_FILE = BLMigration_iOSTests/Info.plist;
@@ -787,6 +813,7 @@
 		ED94D9061FE5204F00FEB588 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4ZHCQJ2SCM;
 				INFOPLIST_FILE = BLMigration_tvOSTests/Info.plist;
@@ -803,6 +830,7 @@
 		ED94D9071FE5204F00FEB588 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4ZHCQJ2SCM;
 				INFOPLIST_FILE = BLMigration_tvOSTests/Info.plist;
@@ -867,6 +895,7 @@
 		ED94D9221FE5205F00FEB588 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -884,6 +913,7 @@
 		ED94D9231FE5205F00FEB588 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
