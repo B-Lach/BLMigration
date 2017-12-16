@@ -23,9 +23,9 @@ open class BLMigration {
         }
     }
     
-    public static func migrate(build: String, migrationBliock: BLMigrationBlock) {
+    public static func migrate(build: String, migrationBlock: BLMigrationBlock) {
         if build.compare(lastMigrationBuild, options: .numeric) == .orderedDescending && build.compare(appBuild, options: .numeric) != .orderedDescending {
-            migrationBliock()
+            migrationBlock()
             
             #if DEBUG
                 print("BLMigration: Running migration for build ", build)
