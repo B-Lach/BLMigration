@@ -692,7 +692,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4ZHCQJ2SCM;
-				INFOPLIST_FILE = BLMigration_iOSTests/Info.plist;
+				INFOPLIST_FILE = SharedTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "de.dev-kiste.BLMigration-iOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -707,7 +707,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4ZHCQJ2SCM;
-				INFOPLIST_FILE = BLMigration_iOSTests/Info.plist;
+				INFOPLIST_FILE = SharedTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "de.dev-kiste.BLMigration-iOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -816,7 +816,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4ZHCQJ2SCM;
-				INFOPLIST_FILE = BLMigration_tvOSTests/Info.plist;
+				INFOPLIST_FILE = SharedTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "de.dev-kiste.BLMigration-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -833,7 +833,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4ZHCQJ2SCM;
-				INFOPLIST_FILE = BLMigration_tvOSTests/Info.plist;
+				INFOPLIST_FILE = SharedTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "de.dev-kiste.BLMigration-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -900,7 +900,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 4ZHCQJ2SCM;
-				INFOPLIST_FILE = BLMigration_macOSTests/Info.plist;
+				INFOPLIST_FILE = SharedTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = "de.dev-kiste.BLMigration-macOSTests";
@@ -918,7 +918,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 4ZHCQJ2SCM;
-				INFOPLIST_FILE = BLMigration_macOSTests/Info.plist;
+				INFOPLIST_FILE = SharedTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = "de.dev-kiste.BLMigration-macOSTests";

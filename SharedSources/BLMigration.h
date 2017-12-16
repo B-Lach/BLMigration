@@ -6,7 +6,7 @@
 //  Copyright © 2017 Benny Lach. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 //! Project version number for BLMigration_iOS.
 FOUNDATION_EXPORT double BLMigration_iOSVersionNumber;
