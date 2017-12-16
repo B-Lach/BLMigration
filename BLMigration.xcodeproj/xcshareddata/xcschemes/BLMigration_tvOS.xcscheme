@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "ED94D8F01FE5204F00FEB588"
-               BuildableName = "BLMigration_tvOS.framework"
+               BuildableName = "BLMigration.framework"
                BlueprintName = "BLMigration_tvOS"
                ReferencedContainer = "container:BLMigration.xcodeproj">
             </BuildableReference>
@@ -44,7 +44,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ED94D8F01FE5204F00FEB588"
-            BuildableName = "BLMigration_tvOS.framework"
+            BuildableName = "BLMigration.framework"
             BlueprintName = "BLMigration_tvOS"
             ReferencedContainer = "container:BLMigration.xcodeproj">
          </BuildableReference>
@@ -67,7 +67,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ED94D8F01FE5204F00FEB588"
-            BuildableName = "BLMigration_tvOS.framework"
+            BuildableName = "BLMigration.framework"
             BlueprintName = "BLMigration_tvOS"
             ReferencedContainer = "container:BLMigration.xcodeproj">
          </BuildableReference>
@@ -85,7 +85,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ED94D8F01FE5204F00FEB588"
-            BuildableName = "BLMigration_tvOS.framework"
+            BuildableName = "BLMigration.framework"
             BlueprintName = "BLMigration_tvOS"
             ReferencedContainer = "container:BLMigration.xcodeproj">
          </BuildableReference>

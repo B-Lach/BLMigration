@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "ED94D8C41FE5201000FEB588"
-               BuildableName = "BLMigration_iOS.framework"
+               BuildableName = "BLMigration.framework"
                BlueprintName = "BLMigration_iOS"
                ReferencedContainer = "container:BLMigration.xcodeproj">
             </BuildableReference>
@@ -44,7 +44,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ED94D8C41FE5201000FEB588"
-            BuildableName = "BLMigration_iOS.framework"
+            BuildableName = "BLMigration.framework"
             BlueprintName = "BLMigration_iOS"
             ReferencedContainer = "container:BLMigration.xcodeproj">
          </BuildableReference>
@@ -67,7 +67,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ED94D8C41FE5201000FEB588"
-            BuildableName = "BLMigration_iOS.framework"
+            BuildableName = "BLMigration.framework"
             BlueprintName = "BLMigration_iOS"
             ReferencedContainer = "container:BLMigration.xcodeproj">
          </BuildableReference>
@@ -85,7 +85,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ED94D8C41FE5201000FEB588"
-            BuildableName = "BLMigration_iOS.framework"
+            BuildableName = "BLMigration.framework"
             BlueprintName = "BLMigration_iOS"
             ReferencedContainer = "container:BLMigration.xcodeproj">
          </BuildableReference>
