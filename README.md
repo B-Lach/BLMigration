@@ -1,4 +1,4 @@
-MTMigration
+BLMigration
 ===========
 
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
@@ -11,7 +11,7 @@ Most of the contribution goes out to [MTMigration](https://github.com/mysterious
 
 ## Installation
 
-MTMigration can be installed one of two ways:
+BLMigration can be installed one of two ways:
 
 * Add `github "B-Lach/BLMigration"` to your [Cartfile](https://github.com/Carthage/Carthage/blob/master/Documentation/Artifacts.md), import as necessary with: `import BLMigration`
 * Clone the Repo and insert `Constants.swift` and `BLMigration.swift` to your project
@@ -55,7 +55,7 @@ BLMigration.migrate(version: "1.0") {
 
 If a user was at version `0.8`, skipped `0.9`, and upgraded to `1.0`, then both the `0.9` *and* `1.0` blocks would run.
 
-For debugging/testing purposes, you can call `reset` to clear out the last migration MTMigration remembered, causing all
+For debugging/testing purposes, you can call `reset` to clear out the last migration BLMigration remembered, causing all
 migrations to run from the beginning:
 
 ```swift
