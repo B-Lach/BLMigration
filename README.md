@@ -6,8 +6,15 @@ BLMigration
 Manages blocks of code that need to run once on version updates in your application. This could be anything from data
 normalization routines, "What's New In This Version" screens, or bug fixes.
 
-
 Most of the contribution goes out to [MTMigration](https://github.com/mysterioustrousers/MTMigration) - This is just an updated Version written in Swift and available for all major platforms (iOS, tvOS, watchOS, macOS)
+
+**Deployment targets:**
+
+* iOS >= 10.0
+* tvOS >= 10.0
+* watchOS >= 3.0
+* macOS >= 10.12
+
 
 ## Installation
 
