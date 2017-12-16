@@ -11,9 +11,9 @@
 		ED86C5E31FE523F1005942E2 /* BLMigration.h in Headers */ = {isa = PBXBuildFile; fileRef = ED94D9251FE5210000FEB588 /* BLMigration.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ED86C5E41FE523F2005942E2 /* BLMigration.h in Headers */ = {isa = PBXBuildFile; fileRef = ED94D9251FE5210000FEB588 /* BLMigration.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ED86C5E51FE523F3005942E2 /* BLMigration.h in Headers */ = {isa = PBXBuildFile; fileRef = ED94D9251FE5210000FEB588 /* BLMigration.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ED86C5E61FE52407005942E2 /* BLMigration_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED94D9281FE5239700FEB588 /* BLMigration_iOSTests.swift */; };
-		ED86C5E71FE52408005942E2 /* BLMigration_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED94D9281FE5239700FEB588 /* BLMigration_iOSTests.swift */; };
-		ED86C5E81FE5240A005942E2 /* BLMigration_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED94D9281FE5239700FEB588 /* BLMigration_iOSTests.swift */; };
+		ED86C5E61FE52407005942E2 /* BLMigrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED94D9281FE5239700FEB588 /* BLMigrationTests.swift */; };
+		ED86C5E71FE52408005942E2 /* BLMigrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED94D9281FE5239700FEB588 /* BLMigrationTests.swift */; };
+		ED86C5E81FE5240A005942E2 /* BLMigrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED94D9281FE5239700FEB588 /* BLMigrationTests.swift */; };
 		ED86C5EA1FE52F40005942E2 /* BLMigration.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED86C5E91FE52F40005942E2 /* BLMigration.swift */; };
 		ED86C5EC1FE52F75005942E2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED86C5EB1FE52F75005942E2 /* Constants.swift */; };
 		ED86C5ED1FE53028005942E2 /* BLMigration.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED86C5E91FE52F40005942E2 /* BLMigration.swift */; };
@@ -63,7 +63,7 @@
 		ED94D9151FE5205E00FEB588 /* BLMigration_macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLMigration_macOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED94D9251FE5210000FEB588 /* BLMigration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLMigration.h; sourceTree = "<group>"; };
 		ED94D9261FE5210000FEB588 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ED94D9281FE5239700FEB588 /* BLMigration_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLMigration_iOSTests.swift; sourceTree = "<group>"; };
+		ED94D9281FE5239700FEB588 /* BLMigrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLMigrationTests.swift; sourceTree = "<group>"; };
 		ED94D9291FE5239700FEB588 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -160,7 +160,7 @@
 		ED94D9271FE5239700FEB588 /* SharedTests */ = {
 			isa = PBXGroup;
 			children = (
-				ED94D9281FE5239700FEB588 /* BLMigration_iOSTests.swift */,
+				ED94D9281FE5239700FEB588 /* BLMigrationTests.swift */,
 				ED94D9291FE5239700FEB588 /* Info.plist */,
 			);
 			path = SharedTests;
@@ -460,7 +460,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED86C5E61FE52407005942E2 /* BLMigration_iOSTests.swift in Sources */,
+				ED86C5E61FE52407005942E2 /* BLMigrationTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,7 +486,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED86C5E71FE52408005942E2 /* BLMigration_iOSTests.swift in Sources */,
+				ED86C5E71FE52408005942E2 /* BLMigrationTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,7 +503,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED86C5E81FE5240A005942E2 /* BLMigration_iOSTests.swift in Sources */,
+				ED86C5E81FE5240A005942E2 /* BLMigrationTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
